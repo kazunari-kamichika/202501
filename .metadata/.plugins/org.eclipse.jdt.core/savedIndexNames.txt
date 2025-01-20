@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\kazu-\teamDevelopment\202501\.metadata\.plugins\org.eclipse.jdt.core
+1966682919.index
+1865797976.index
+2191215674.index
