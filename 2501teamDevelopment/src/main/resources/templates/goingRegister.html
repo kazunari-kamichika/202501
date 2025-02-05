@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta chaset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>出勤登録一覧</title>
+	<link rel="stylesheet" th:href="@{/css/attendance.css}">
+	
+
+	</head>
+	<body>
+	    <div class="container">
+	        <img class="cat-image" src="cat.png" alt="Cat" width="100">
+	        <div class="sun"></div>
+	        <div class="title">出勤登録一覧</div>
+	        <div class="form-container">
+	            <table>
+	                <tr>
+	                    <td>勤怠ID</td>
+	                    <td><input type="text" name="attendance_id" readonly></td>
+	                </tr>
+	                <tr>
+	                    <td>ユーザーID</td>
+	                    <td><input type="text" name="user_id"></td>
+	                </tr>
+	                <tr>
+	                    <td>ステータス</td>
+	                    <td>
+	                        <select name="status">
+	                            <option value="出勤">出勤</option>
+	                            <option value="遅刻">遅刻</option>
+	                            <option value="休暇">休暇</option>
+	                            <option value="欠勤">欠勤</option>
+	                        </select>
+	                    </td>
+	                </tr>
+	                <tr>
+	                    <td>出勤日</td>
+	                    <td><input type="date" name="going_date" value="2025-01-01"></td>
+	                </tr>
+	                <tr>
+	                    <td>出勤時間</td>
+	                    <td><input type="time" name="going_time" value="09:00"></td>
+	                </tr>
+	          		<tr>
+	                    <td>備考</td>
+	                    <td><textarea name="remarks" rows="3" maxlength="100"></textarea></td>
+	                </tr>
+	            </table>
+	        </div>
+	        <div class="buttons">
+	            <button class="btn">戻る</button>
+	            <button class="btn">登録</button>
+	        </div>
+	    </div>
+	</body>
+	</html>
+	
+	
+	
+	
+	
+	
+	
+	
+	
