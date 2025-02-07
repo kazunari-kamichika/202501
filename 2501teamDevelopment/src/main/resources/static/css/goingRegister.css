@@ -12,7 +12,7 @@ body {
 .cat-image {
 	position: absolute; 
             top: 0; 
-            right: 480px; 
+            right: 1350px; 
             z-index: 10; 
             max-width: 450px; 
             height: auto;
@@ -21,12 +21,13 @@ body {
 
 .sun-image {
 	position: absolute; 
-            top: 0; 
-            left: 650px; 
-            z-index: 10; 
-            max-width: 300px; 
-            height: auto;
-			z-index: -1;
+	left: 1500px;
+    top: 0; 
+    z-index: 10; 
+    max-width: 300px; 
+    height: auto;
+	z-index: -1;
+			
 }
 
 
