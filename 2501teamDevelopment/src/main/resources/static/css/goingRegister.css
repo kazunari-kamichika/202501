@@ -48,7 +48,7 @@ body {
 
 .form-container {
 	width: 80%;
-	border: 5px solid #ecf53d;
+	border: 1px solid #ecf53d;
 	border-collapse: collapse;
 	padding: 20px;
 }
